@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from './../css/logo.svg';
+import './../css/App.css';
 
 class App extends Component {
   render() {
@@ -12,6 +12,9 @@ class App extends Component {
         </div>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+        <p className="app-text">
+          This is new text that has been added to the app.js file.
         </p>
       </div>
     );
